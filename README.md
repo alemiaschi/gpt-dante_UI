@@ -1,0 +1,21 @@
+# Generatore GPT-Dante UI
+
+## Overview
+Repo contenente l'interfaccia grafica per la generazione di testo con il modello di GePeTto fine-tunato su testi in terza rima.
+
+## Requisiti
+Python 3.5.2+
+
+## Utilizzo
+
+Per lanciare la UI prima installare i requirements:
+
+```
+python install -r requirements.txt
+```
+Una volta installati, modificare la riga 68 dello script **generator_script.py** specificando il percorso al modello fine-tunato di GePpeTto e lanciare il server da terminale:
+
+```
+flask run
+```
+
