@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GPT2 API Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <center>
+            <h1>Generatore GPT-Dante</h1>
+            
+            <form method="POST">
+				<textarea id="myText" name="myTextArea" rows="5" cols="70" placeholder="Inserisci qui il tuo prompt..."></textarea>
+				<p></p>
+				<div class="aligned">
+				<button id="submitButton" onClick="$('#loading').show();">Genera!</button>
+				<div id="loading" style="display:none;">
+					<img id="loading_img" src="../static/loading.gif" alt="" />
+				</div>
+				</div>
+				</form>
+            <p></p>
+            <textarea id="myText2"
+                name="myTextArea2"
+                rows="20"
+                cols="70">{{output_area}}
+            </textarea>
+            <p></p>
+        </center>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+    </body>
+</html>
