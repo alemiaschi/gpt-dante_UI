@@ -11,7 +11,7 @@ Python 3.5.2+
 Per lanciare la UI prima installare i requirements:
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 Una volta installati, modificare la riga 68 dello script **generator_script.py** specificando il percorso al modello fine-tunato di GePpeTto (i modelli sono disponibili qui: https://drive.google.com/drive/folders/1wDutaN9dm6CbJ8V2PM77UvCrcH8JkQU-) e lanciare il server da terminale:
 
