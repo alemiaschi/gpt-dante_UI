@@ -65,8 +65,8 @@ tokenizer = tokenizer_class.from_pretrained('LorenzoDeMattei/GePpeTto')
 tokenizer.add_tokens('\n')
 model = model_class.from_pretrained('LorenzoDeMattei/GePpeTto')
 model.resize_token_embeddings(len(tokenizer))
-model.load_state_dict(torch.load('/home/alessio/Documents/PhD/experiments/geppetto_dante/GePpeTto-web-master/GePpeTto_terza_rima-esteso.chkpt',
-                                 map_location=torch.device('cpu')))
+#model.load_state_dict(torch.load('/home/alessio/Documents/PhD/experiments/geppetto_dante/GePpeTto-web-master/GePpeTto_terza_rima-esteso.chkpt',
+#                                 map_location=torch.device('cpu')))
 model.eval()
 
 
