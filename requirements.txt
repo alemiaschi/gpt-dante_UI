@@ -1,5 +1,5 @@
 Flask
-cryptography==3.3.2
+gunicorn
 numpy
 torch
-transformers==2.5
+transformers==2.4
