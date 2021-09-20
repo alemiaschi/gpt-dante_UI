@@ -1,5 +1,5 @@
 Flask
 gunicorn
 numpy
-torch
+torch==1.0.1
 transformers==2.5
