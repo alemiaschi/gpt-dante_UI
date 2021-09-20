@@ -1,6 +1,4 @@
-pip
 Flask
 gunicorn
 numpy
 torch
-transformers==2.4
